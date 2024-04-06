@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>One-Shot Image-to-Image Translation via  Part-Global Learning with a Multi-adversarial</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="In this paper, we present an end-to-end one-shot translation framework for predicting task-driven visual saliency on webpages. Given a webpage, we propose a convolutional neural network to predict where people look at it under different task conditions. Inspired by the observation that given a specific task, human attention is strongly correlated with certain semantic components on a webpage (e.g., images, buttons and input boxes), our network explicitly disentangles saliency prediction into two independent sub-tasks: task-specific attention shift prediction and task-free saliency prediction. The task-specific branch estimates task-driven attention shift over a webpage from its semantic components, while the task-free branch infers visual saliency induced by visual features of the webpage. The outputs of the two branches are combined to produce the final prediction. Such a task decomposition framework allows us to efficiently learn our model from a small-scale task-driven saliency dataset with sparse labels (captured under a single task condition). Experimental results show that our method outperforms the baselines and prior works, achieving state-of-the-art performance on a newly collected benchmark dataset for task-driven webpage saliency detection.">
+<meta name="keywords" content="Webpage analysis; One-shot translation; Domain adaptation;">
+<meta name="keywords" content="Ziqiang Zheng; 郑自强; Computer Vision;">
+<link rel="author" href="https://zhengziqiang.github.io/">
+
+<!-- Fonts and stuff -->
+<link href="./css/css" rel="styles<!-- heet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./css/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./OST/iconize.css">
+<script async="" src="./css/prettify.js.download"></script>
+ 
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+      <div class="section head">
+	<h1>One-Shot Image-to-Image Translation via  Part-Global Learning with a Multi-adversarial</h1>
+
+	<div class="authors">
+	  <a href="https://zhengziqiang.github.io/">Ziqiang Zheng</a>&nbsp;&nbsp;&nbsp;
+	  <a href="http://ouc.ai/yuzhibin/index.html/">Zhibin Yu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="http://ouc.ai/zhenghaiyong/">Haiyong Zheng</a>&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://cfm.uestc.edu.cn/~yangyang/">Yang Yang</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	  <a href="https://cfm.uestc.edu.cn/~shenht/">Heng Tao Shen</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+
+	<div class="affiliations">
+
+	  <p><a href="https://www.uestc.edu.cn/">University of Electronic Science and Technology of China</a></p>
+	</div class='section teaser'>
+
+	<!-- <div class="venue">Preprint Manuscript (<a href="https://arxiv.org/" target="_blank">Arxiv</a>) 2018</div> -->
+      </div>
+      
+      <center><img src="./ost_demo.jpg" border="0" width="90%"></center>
+
+<div class="section abstract">
+	<h2>Abstract</h2>
+	<br>
+	<p>
+It is well known that humans can learn and recognize objects effectively from several limited image samples. However, learning from just a few images is still a tremendous challenge for existing main-stream deep neural networks. Inspired by analogical reasoning in the human mind, a feasible strategy is to ``translate'' the abundant images of a rich source domain to enrich the relevant yet different target domain with insufficient image data. To achieve this goal, we propose a novel, effective multi-adversarial framework (\textbf{MA}) based on part-global learning, which accomplishes the one-shot cross-domain image-to-image translation. In specific, we first devise a part-global adversarial training scheme to provide an efficient way for feature extraction and prevent discriminators from being overfitted. Then, a multi-adversarial mechanism is employed to enhance the image-to-image translation ability to unearth the high-level semantic representation. Moreover, a balanced adversarial loss function is presented, which aims to balance the training data and stabilize the training process. Extensive experiments demonstrate that the proposed approach can obtain impressive results on various datasets between two extremely imbalanced image domains and outperform state-of-the-art methods on one-shot image-to-image translation.
+	</p>
+      </div>
+
+<div class="section architecture">
+	<h2>Architecture</h2>
+	<br>
+	<center><img src="./ost_archi.jpg" border="0" width="90%"></center>
+</div>
+
+
+<div class="section download">
+
+	<h2>Downloads</h2>
+<!-- <HR size=2> -->
+
+<ul>
+	<li>
+		  <a href="./TMM_ost.pdf" target="_blank">Paper</a>
+	</li>
+	<li>
+		  <a href="" target="_blank">Data</a>
+	</li>
+
+	<li>
+		  <a href="https://github.com/zhengziqiang/OST" target="_blank">Codes</a>
+	</li>
+
+</ul>
+</div>
+
+
+
+<br>
+
+<div class="section Related Work">
+
+	<h2>Related work</h2>
+<!-- <HR size=2> -->
+
+<ul>
+	<li>
+		  <a href="https://github.com/RoyalVane/ASM" target="_blank">ASM</a>
+	</li>
+	<li>
+		  <a href="https://github.com/sagiebenaim/OneShotTranslation" target="_blank">OST</a>
+	</li>
+
+	<li>
+		  <a href="https://github.com/tomercohen11/BiOST" target="_blank">BiOST</a>
+	</li>
+
+</ul>
+</div>
+
+
+<br>
+
+<div class="section citation">
+
+	<h2>Citation</h2>
+	<div class="section bibtex">
+	  <pre>@article{zheng2021one,
+  title={One-Shot Image-to-Image Translation via Part-Global Learning with a Multi-adversarial Framework},
+  author={Zheng, Ziqiang and Yu, Zhibin and Zheng, Haiyong and Yang, Yang and Shen, Heng Tao},
+  journal={IEEE Transactions on Multimedia},
+  year={2021},
+  publisher={IEEE}
+}</pre>
+	  </div>
+      </div>
+
+</div></div></body></html>

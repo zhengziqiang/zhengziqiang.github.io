@@ -1,0 +1,140 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>DaCo: Domain-Agnostic Contrastive Learning for Visual Place Recognition</title>
+
+<!-- Meta tags for search engines to crawl -->
+<meta name="robots" content="index,follow">
+<meta name="description" content="DaCo: Domain-Agnostic Contrastive Learning for Visual Place Recognition">
+<meta name="keywords" content="Webpage analysis; Image retrieval; Image enhancement; Place recognition;">
+<meta name="keywords" content="Ziqiang Zheng; 郑自强; Computer Vision;">
+<link rel="author" href="https://zhengziqiang.github.io/">
+
+<!-- Fonts and stuff -->
+<link href="./css/css" rel="styles<!-- heet" type="text/css">
+<link rel="stylesheet" type="text/css" href="./css/project.css" media="screen">
+<link rel="stylesheet" type="text/css" media="screen" href="./OST/iconize.css">
+<script async="" src="./css/prettify.js.download"></script>
+
+
+</head>
+
+<body>
+  <div id="content">
+    <div id="content-inner">
+
+      <div class="section head">
+	<h1>DaCo: Domain-Agnostic Contrastive Learning for Visual Place Recognition</h1>
+
+	<div class="authors">
+        <a href="https://github.com/leftthomas/">Hao Ren#</a>
+	  <a href="https://zhengziqiang.github.io/">Ziqiang Zheng#</a>
+        <a href="https://scholar.google.com.hk/citations?user=vwOQ-UIAAAAJ&hl=zh-CN/">Yang Wu</a>&nbsp;&nbsp;&nbsp;
+	  <a href="https://scholar.google.com/citations?user=bR8b-WIAAAAJ&hl=zh-CN&oi=ao/">Hong Lu</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+	</div>
+
+	<div class="affiliations">
+	  <p><a href="https://www.fudan.edu.cn/">Fudan University</a></p>
+		<p><a href="https://www.uestc.edu.cn/">University of Electronic Science and Technology of China</a></p>
+	</div class='section teaser'>
+
+	<!-- <div class="venue">Preprint Manuscript (<a href="https://arxiv.org/" target="_blank">Arxiv</a>) 2018</div> -->
+      </div>
+
+      <center><img src="./case.jpg" border="0" width="90%"></center>
+
+<div class="section abstract">
+	<h2>Abstract</h2>
+	<br>
+	<p>
+Visual place recognition is a core component of visual information analysis, which serves for the position and orientation perception of autonomous driving and robotics. The prevailing place recognition methods usually rely on image retrieval techniques to effectively identify the visual similarity between a given query image and the gallery images. However, state-of-the-art image retrieval methods are often based on extensive label annotations, which require intensive labor to collect. Besides, image retrieval methods heavily suffer from environmental condition changes (e.g., a large range of illumination and weather changes). To tackle the two challenges, we introduce a novel, simple and effective domain-agnostic contrastive learning method termed ``DaCo'' to perform cross-domain image retrieval without any human annotation. A generative adversarial model is applied to promote the extraction of domain-agnostic feature representations. Considering the data augmentation techniques of contrastive learning cannot effectively simulate the domain disparities, an additional self-generated soft constraint is designed to tightly integrate domain-agnostic representations and self-supervision. Extensive experiments and analysis on cross-illumination and cross-weather settings are performed on three challenging datasets. The proposed ``DaCo'' outperforms current contrastive learning based image retrieval methods by a large margin.
+
+	</p>
+      </div>
+
+<div class="section architecture">
+	<h2>Overview</h2>
+	<br>
+	<center><img src="./overview.jpg" border="0" width="90%"></center>
+
+	<h2>Architecture</h2>
+	<br>
+	<center><img src="./explanation.jpg" border="0" width="90%"></center>
+
+	<h2>Results</h2>
+	<br>
+	<center><img src="./cityscapes.jpg" border="0" width="90%"></center>
+
+    <h2>Results (T-SNE)</h2>
+	<br>
+	<center><img src="./tsne.jpg" border="0" width="90%"></center>
+</div>
+
+
+<div class="section download">
+
+	<h2>Downloads</h2>
+<!-- <HR size=2> -->
+
+<ul>
+	<li>
+		  <a href="" target="_blank">Paper</a>
+	</li>
+
+	<li>
+		  <a href="https://github.com/leftthomas/DaCo" target="_blank">Codes</a>
+	</li>
+
+</ul>
+</div>
+
+
+
+<br>
+
+<div class="section Related Work">
+
+	<h2>Related work</h2>
+<!-- <HR size=2> -->
+
+<ul>
+	<li>
+		  <a href="https://arxiv.org/abs/1805.01978" target="_blank">NPID</a>
+	</li>
+	<li>
+		  <a href="https://arxiv.org/abs/2002.05709" target="_blank">SimCLR</a>
+	</li>
+
+	<li>
+		  <a href="https://arxiv.org/abs/1911.05722" target="_blank">MoCo</a>
+	</li>
+
+	<li>
+		  <a href="https://arxiv.org/abs/2003.04297" target="_blank">MoCo v2</a>
+	</li>
+
+
+</ul>
+</div>
+
+
+<br>
+
+<div class="section citation">
+
+	<h2>Citation</h2>
+	<div class="section bibtex">
+	  <pre>@article{ren2023daco,
+  title={DaCo: domain-agnostic contrastive learning for visual place recognition},
+  author={Ren, Hao and Zheng, Ziqiang and Wu, Yang and Lu, Hong},
+  journal={Applied Intelligence},
+  volume={53},
+  number={19},
+  pages={21827--21840},
+  year={2023},
+  publisher={Springer}
+}</pre>
+	  </div>
+      </div>
+
+</div></div></body></html>
